@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(243, 235, 242);
+    color: rgb(133, 14, 53);
+    line-height: 100%;
+  }
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    line-height: 3em;
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(238, 105, 131);
+    font-weight: 300;
+    line-height: 1.15;
+    font-size: 20px;
+  }
+
+li > a {
+  color: rgb(133, 14, 53);
+}
+
+p {
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+a { 
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(11, 109, 64);
+}
+
+.btn-purple:hover {
+  text-decoration: none;
+  color: rgb(243, 235, 242);
+  background-color: rgb(11, 109, 64);
+  }
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img-circle-center {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  text-align: center;
+  background:rgb(255, 250, 254);
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  box-shadow: 0px 3px 3px  rgba(0, 0, 0, 0.13);
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline.hover {
+  padding: 0px;
+  color: black
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px;
+  margin: 12px;
+  font-size: 35px
+}
+
+.btn-purple {
+  background-color: rgb(243, 235, 242);
+  padding: 8px 16px;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+
+.btn-social-media:hover {
+  color: black;
+}
+
+@media (max-width: 1500px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
